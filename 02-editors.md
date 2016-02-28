@@ -31,7 +31,7 @@ Both Emacs and vim have built-in interactive tutorials that you can try.
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will be using Vim. I went through the tutorials for Vim, Emacs, and found a guide for nano and realized that the basic commands for vim make the most sense to me. I also like being able to switch between modes instead of having to use control or alt keys for every command. 
 
 ---
 
@@ -61,6 +61,6 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I chose sublime since I am a new coder and want to keep things simple. Sublime has a huge library of packages to work with, is easy to naviagate with goto (command p), has a "distraction free mode" and a very convenient command palette. Quitting (command q) and saving (command s) are very simple, as is commenting out a section of highlighted text (command /). I can customize my editor by using themes and making modifications to the settings - user file in my preferences.
 
 ---
