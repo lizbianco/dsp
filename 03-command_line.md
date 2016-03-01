@@ -12,6 +12,7 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
+Everything is new to me - so here goes nothing:
 pwd = print working directory
 hostname = my computer's network name
 mkdir = make directory
@@ -38,8 +39,8 @@ apropos = find apropriate manual page
 env = look at your environment
 echo =print some arguments
 export = set a new environment variable
-exit
-find
+exit = exit
+find = find
 
 
 ---
