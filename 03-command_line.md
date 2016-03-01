@@ -7,8 +7,9 @@ you see in the _Do This_ section, and read the _You Learned This_
 section. Move on to the next chapter. You should be able to go through
 these in a couple of hours.
 
-
 ---
+
+###Q1.  Cheat Sheet of Commands  
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
@@ -45,10 +46,16 @@ find = find
 
 ---
 
+###Q2.  List Files in Unix   
 
----
-
-What does `ls` do? What do `ls -a`, `ls -l`, and `ls -lh` do? What combinations of those flags are meaningful?
+What do the following commands do:  
+`ls`  
+`ls -a`  
+`ls -l`  
+`ls -lh`  
+`ls -lah`  
+`ls -t`  
+`ls -Glp`  
 
 ls = lists the contents of the directory
 ls -a = includes entries whose names begins with a dot (hidden files)
@@ -58,8 +65,15 @@ ls -lh = displays file size in human readable format
 
 ---
 
+###Q3.  More List Files in Unix  
+
+Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
+
+> > REPLACE THIS TEXT WITH YOUR RESPONSE
 
 ---
+
+###Q4.  Xargs   
 
 What does `xargs` do? Give an example of how to use it.
 
@@ -67,5 +81,5 @@ xargs constructs argument lists and invokes another utility. xargs reads items f
 For instance, find . -name ".txt" | xargs grep "file" will first fina all the txt files from the current directory and then search each of those files for the word "file"
 
 
----
+ 
 

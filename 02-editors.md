@@ -10,6 +10,7 @@ It may sound silly, but [make sure](http://www.typingtest.com/) you know how to 
 
 A lot of your work will be done in a text editor. You have to know how to use your editor. Any editor will work, but knowing a powerful editor well will make you faster, more comfortable, and more effective.
 
+---
 
 ### Terminal Editor
 
@@ -27,16 +28,12 @@ If you intend to use a graphical editor that doesn't run in a terminal, nano mig
 
 Both Emacs and vim have built-in interactive tutorials that you can try.
 
----
 
-What terminal editor will you use? How did you make your decision?
 
->> I will be using Vim. I went through the tutorials for Vim, Emacs, and found a guide for nano and realized that the basic commands for vim make the most sense to me. I also like being able to switch between modes instead of having to use control or alt keys for every command. 
 
 ---
 
-
-### Graphical Editor
+###Graphical Editor
 
 You will probably spend most of your time with access to a graphical interface, where you have more choices in editors and integrated development environments.
 
@@ -59,8 +56,19 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 ---
 
+###Q1. Terminal Editor
+
+What terminal editor will you use? How did you make your decision?
+
+>> I will be using Vim. I went through the tutorials for Vim, Emacs, and found a guide for nano and realized that the basic commands for vim make the most sense to me. I also like being able to switch between modes instead of having to use control or alt keys for every command. 
+
+
+--
+
+###Q2. Graphical Editor
+
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
 >> I chose sublime since I am a new coder and want to keep things simple. Sublime has a huge library of packages to work with, is easy to naviagate with goto (command p), has a "distraction free mode" and a very convenient command palette. Quitting (command q) and saving (command s) are very simple, as is commenting out a section of highlighted text (command /). I can customize my editor by using themes and making modifications to the settings - user file in my preferences.
 
----
+ 
