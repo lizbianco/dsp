@@ -1,8 +1,26 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Mar 20 12:09:23 2016
+
+@author: EBianco
+"""
+
 # Based on materials copyright 2010 Google Inc.
 # Licensed under the Apache License, Version 2.0
 
 
 def match_ends(words):
+    count = 0
+    for x in words:
+        l = len(x)
+        if l>= 2:
+            firstchar = x[0]
+            lastchar = x[l-1]        
+            if firstchar == lastchar:
+                count += 1
+    return count
+   
+
     """
     Given a list of strings, return the count of the number of strings
     where the string length is 2 or more and the first and last chars
@@ -19,6 +37,19 @@ def match_ends(words):
 
 
 def front_x(words):
+    xlist = []
+    newlist =[]
+    for i in words:
+        if i[0] == 'x':
+            xlist.append(i)
+        else: 
+            newlist.append(i)
+    xlist.sort()
+    newlist.sort()
+    finallist = xlist + newlist
+    return (finallist)
+    
+
     """
     Given a list of strings, return a list with the strings in sorted
     order, except group all the strings that begin with 'x' first.
@@ -36,6 +67,9 @@ def front_x(words):
 
 
 def sort_last(tuples):
+    newlist = sorted(tuples, key=lambda x: x[1])
+    return (newlist)
+    
     """
     Given a list of non-empty tuples, return a list sorted in
     increasing order by the last element in each tuple.
@@ -53,6 +87,16 @@ def sort_last(tuples):
 
 
 def remove_adjacent(nums):
+    for i in range(len(nums)):
+        if i < len(nums):
+            if nums[i-1] == nums[i]:
+                del nums[i-1]
+        else:
+            if nums[len(nums)-2] == nums[len(nums)-1]:
+                del nums[len(nums)-1]
+    return (nums)
+    
+  
     """
     Given a list of numbers, return a list where all adjacent equal
     elements have been reduced to a single element, so [1, 2, 2, 3]
@@ -72,6 +116,10 @@ def remove_adjacent(nums):
 
 
 def linear_merge(list1, list2):
+    mergedlist = sorted(list1 + list2)
+    return (mergedlist)
+    
+
     """
     Given two lists sorted in increasing order, create and return a
     merged list of all the elements in sorted order. You may modify

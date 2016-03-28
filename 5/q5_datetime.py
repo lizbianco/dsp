@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Mar 18 15:41:47 2016
+
+@author: EBianco
+"""
+
 from datetime import datetime
 
 
@@ -26,3 +33,12 @@ date_stop_c = '14-Jul-2015'
 form_c = '%d-%b-%Y'
 
 solve(date_start_c, date_stop_c, form_c)
+
+
+
+
+
+
+
+
+
