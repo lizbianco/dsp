@@ -31,15 +31,15 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 >> Lambda is a construct that allows you to create an unnamed function, used to write clean, succinct code when you need a function but only need to use it once. </br>
 
-When sorting lambda is useful to specify the value to sort by in a complex object. Ex: </br>
-```birthday_tuples = [
+>> When sorting lambda is useful to specify the value to sort by in a complex object. Ex: </br>
+birthday_tuples = [
         (1989, 1, 5),
         (1988, 8, 20),
         (1955, 4, 18),
         (1956, 11, 30),
 ]
 print (sorted(birthday_tuples, key=lambda birthday: birthday[1]))   # sort by month
-```
+
 
 ---
 
